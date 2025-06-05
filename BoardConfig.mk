@@ -37,3 +37,4 @@ TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.xiaomi
 TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
 
 include vendor/xiaomi/socrates/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
